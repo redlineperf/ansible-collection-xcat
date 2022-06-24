@@ -1,0 +1,47 @@
+# This project falls under a commnunity approach so the use of the community name space is
+# targeted at getting community feedback and code.  
+namespace: community
+
+# This is the xcat community project to manage xcat nodes, xcat images, as well as future 
+# implementations of xcat development. 
+name: xcat
+
+# Version
+version: 0.0.1
+
+# README
+readme: README.md
+
+# Authors
+authors:
+- Kyle Nevins <knevins@redlineperf.com>
+
+# Description
+description: XCat Image, Container, and Package managagement system
+
+# Licenses
+license:
+- GPL-2.0-or-later
+
+# Tags
+tags: [xcat, linux, hpc]
+
+# Currently this project does not have any dependencies. 
+dependencies: {}
+
+# The URL of the originating SCM repository
+repository: https://github.com/redlineperf/ansible-collection-xcat
+
+# Online Documentation
+documentation: https://github.com/redlineperf/ansible-collection-xcat/README.md
+
+# The URL to the homepage of the collection/project
+homepage: https://redlineperf.com
+
+# The URL to the collection issue tracker
+issues: http://github.com/redlineperf/ansible-collection-xcat/issue/tracker
+
+build_ignore:
+  - .gitignore
+  - .idea
+
